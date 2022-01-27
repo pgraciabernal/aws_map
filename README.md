@@ -1,4 +1,4 @@
 # aws_map
 Map of AWS services
 
-![AWS Map](aws_services.png)
+![AWS Map](aws_services.svg)
