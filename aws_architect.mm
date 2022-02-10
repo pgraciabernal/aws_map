@@ -1,1 +1,251 @@
-<map version="0.7.1"><node ID="1" TEXT="Architecting&#x20;AWS"><node ID="4" TEXT="&#xA0;Architecture&#x20;Fundamentals"><node ID="6" TEXT="Amazon&#x20;Web&#x20;Services"><node ID="7" TEXT="Global&#x20;data&#x20;centers"></node><node ID="8" TEXT="+200&#x20;Services"></node><node ID="9" TEXT="Secure&#x20;and&#x20;robust"></node><node ID="10" TEXT="Pay&#x20;as&#x20;you&#x20;go"></node><node ID="11" TEXT="Built&#x20;for&#x20;business&#x20;needs"></node><node ID="12" TEXT="Architect&#x20;responsabilities"><node ID="13" TEXT="Plan"></node><node ID="15" TEXT="Research"></node><node ID="16" TEXT="Build"></node></node><node ID="17" TEXT="Connect&#x20;AWS&#x20;Service"><node ID="18" TEXT="CLI"></node><node ID="19" TEXT="Management&#x20;Console"></node><node ID="20" TEXT="SDK"></node></node><node ID="24" TEXT="Unmanage&#x20;Services"><node ID="25" TEXT="AWS"><node ID="27" TEXT="OS&#x20;installation"></node><node ID="28" TEXT="Server&#x20;maintenance"></node><node ID="29" TEXT="Rack&#x20;and&#x20;stack"></node><node ID="30" TEXT="Power&#x2C;&#x20;HVAC&#x2C;&#x20;net"></node></node><node ID="31" TEXT="You"><node ID="32" TEXT="App&#x20;optimization"></node><node ID="33" TEXT="Scaling"></node><node ID="35" TEXT="High&#x20;Availability&#x20;&#x28;HA&#x29;"></node><node ID="36" TEXT="Database&#x20;backup"></node><node ID="37" TEXT="Database&#x20;software&#x20;patches"></node><node ID="38" TEXT="Database&#x20;software&#x20;install"></node><node ID="40" TEXT="OS&#x20;Patches"></node></node></node><node ID="39" TEXT="Manage&#x20;Services"><node ID="41" TEXT="AWS"><node ID="43" TEXT="OS&#x20;installation"></node><node ID="44" TEXT="Server&#x20;maintenance"></node><node ID="45" TEXT="Rack&#x20;and&#x20;stack"></node><node ID="46" TEXT="Power&#x2C;&#x20;HVAC&#x2C;&#x20;net"></node><node ID="47" TEXT="Scaling"></node><node ID="48" TEXT="High&#x20;Availability&#x20;&#x28;HA&#x29;"></node><node ID="49" TEXT="Database&#x20;backup"></node><node ID="50" TEXT="Database&#x20;software&#x20;patches"></node><node ID="51" TEXT="Database&#x20;software&#x20;install"></node><node ID="52" TEXT="OS&#x20;Patches"></node></node><node ID="42" TEXT="You"><node ID="53" TEXT="App&#x20;optimization"></node></node></node><node ID="54" TEXT="Serverless&#x20;Services"><node ID="55" TEXT="Not&#x20;operate&#x20;within&#x20;VPC&#x20;infrastructure"></node><node ID="56" TEXT="Access&#x20;via&#x20;URL&#x20;endpoint"></node><node ID="57" TEXT="VPC&#x20;resources&#x20;can&#x20;access&#x20;serverless&#x20;services"></node></node></node><node ID="58" TEXT="AWS&#x20;Infrastructure"><node ID="59" TEXT="Data&#x20;centers"><node ID="60" TEXT="Host&#x20;thousand&#x20;of&#x20;servers"></node><node ID="61" TEXT="Organized&#x20;into&#x20;Availability&#x20;Zones&#x20;&#x28;AZ&#x29;"></node><node ID="62" TEXT="Propietary&#x20;network&#x20;equipment"></node></node><node ID="64" TEXT="Availability&#x20;Zones&#x20;&#x28;AZ&#x29;"><node ID="63" TEXT="Data&#x20;centers&#x20;in&#x20;a&#x20;region"></node></node><node ID="65" TEXT="Regions"><node ID="66" TEXT="Uses&#x20;AWS&#x20;network&#x20;infrastructure"></node><node ID="67" TEXT="2+&#x20;Availability&#x20;Zones"></node><node ID="68" TEXT="Completely&#x20;independent"></node></node><node ID="69" TEXT="Local&#x20;Zones"><node ID="73" TEXT="Media&#x20;&#x26;&#x20;entertainment&#x20;creation"></node><node ID="74" TEXT="Real-time&#x20;multiplayer&#x20;gaming"></node><node ID="84" TEXT="Live&#x20;video&#x20;streaming"></node></node><node ID="70" TEXT="Edge&#x20;Locations"><node ID="71" TEXT="Run&#x20;in&#x20;major&#x20;cities"></node><node ID="72" TEXT="Support&#x20;AWS&#x20;Services&#x20;like&#x20;CloudFront&#x20;or&#x20;Route&#x20;53"></node></node><node ID="75" TEXT="Local&#x20;zone&#x20;vs&#x20;Edge&#x20;location"><node ID="76" TEXT="Local&#x20;Zone"><node ID="78" TEXT="Low&#x20;latency"></node><node ID="79" TEXT="Local&#x20;data&#x20;processing"></node><node ID="80" TEXT="Consistent&#x20;AWS&#x20;experience"></node></node><node ID="77" TEXT="Edge&#x20;Location"><node ID="81" TEXT="Caching&#x20;data"></node><node ID="82" TEXT="Fast&#x20;delivery&#x20;of&#x20;content"></node><node ID="83" TEXT="Better&#x20;user&#x20;experience"></node></node></node></node></node></node></map>
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1644404680337" ID="1" MODIFIED="1644428026238" TEXT="Architecting AWS">
+<node CREATED="1644404680337" ID="4" MODIFIED="1644428049999" POSITION="right" TEXT="&#xa0;Architecture Fundamentals">
+<node CREATED="1644404680337" ID="6" MODIFIED="1644404680337" TEXT="Amazon Web Services">
+<node CREATED="1644404680337" ID="7" MODIFIED="1644404680337" TEXT="Global data centers"/>
+<node CREATED="1644404680338" ID="8" MODIFIED="1644404680338" TEXT="+200 Services"/>
+<node CREATED="1644404680338" ID="9" MODIFIED="1644404680338" TEXT="Secure and robust"/>
+<node CREATED="1644404680338" ID="10" MODIFIED="1644404680338" TEXT="Pay as you go"/>
+<node CREATED="1644404680338" ID="11" MODIFIED="1644404680338" TEXT="Built for business needs"/>
+<node CREATED="1644404680338" ID="12" MODIFIED="1644404680338" TEXT="Architect responsabilities">
+<node CREATED="1644404680338" ID="13" MODIFIED="1644404680338" TEXT="Plan"/>
+<node CREATED="1644404680338" ID="15" MODIFIED="1644404680338" TEXT="Research"/>
+<node CREATED="1644404680338" ID="16" MODIFIED="1644404680338" TEXT="Build"/>
+</node>
+<node CREATED="1644404680338" ID="17" MODIFIED="1644404680338" TEXT="Connect AWS Service">
+<node CREATED="1644404680338" ID="18" MODIFIED="1644404680338" TEXT="CLI"/>
+<node CREATED="1644404680338" ID="19" MODIFIED="1644404680338" TEXT="Management Console"/>
+<node CREATED="1644404680338" ID="20" MODIFIED="1644404680338" TEXT="SDK"/>
+<node CREATED="1644429231957" ID="ID_1588036665" MODIFIED="1644429240610" TEXT="CloudFormation">
+<node CREATED="1644429245342" ID="ID_1420188609" MODIFIED="1644429250557" TEXT="Similar to Terraform"/>
+<node CREATED="1644429254940" ID="ID_1070738521" MODIFIED="1644429263943" TEXT="IaaC"/>
+</node>
+</node>
+<node CREATED="1644404680339" ID="24" MODIFIED="1644404680339" TEXT="Unmanage Services">
+<node CREATED="1644404680339" ID="25" MODIFIED="1644404680339" TEXT="AWS">
+<node CREATED="1644404680339" ID="27" MODIFIED="1644404680339" TEXT="OS installation"/>
+<node CREATED="1644404680339" ID="28" MODIFIED="1644404680339" TEXT="Server maintenance"/>
+<node CREATED="1644404680339" ID="29" MODIFIED="1644404680339" TEXT="Rack and stack"/>
+<node CREATED="1644404680339" ID="30" MODIFIED="1644404680339" TEXT="Power, HVAC, net"/>
+</node>
+<node CREATED="1644404680339" ID="31" MODIFIED="1644404680339" TEXT="You">
+<node CREATED="1644404680339" ID="32" MODIFIED="1644404680339" TEXT="App optimization"/>
+<node CREATED="1644404680339" ID="33" MODIFIED="1644404680339" TEXT="Scaling"/>
+<node CREATED="1644404680339" ID="35" MODIFIED="1644404680339" TEXT="High Availability (HA)"/>
+<node CREATED="1644404680339" ID="36" MODIFIED="1644404680339" TEXT="Database backup"/>
+<node CREATED="1644404680339" ID="37" MODIFIED="1644404680339" TEXT="Database software patches"/>
+<node CREATED="1644404680339" ID="38" MODIFIED="1644404680339" TEXT="Database software install"/>
+<node CREATED="1644404680339" ID="40" MODIFIED="1644404680339" TEXT="OS Patches"/>
+</node>
+</node>
+<node CREATED="1644404680339" ID="39" MODIFIED="1644404680339" TEXT="Manage Services">
+<node CREATED="1644404680339" ID="41" MODIFIED="1644404680339" TEXT="AWS">
+<node CREATED="1644404680339" ID="43" MODIFIED="1644404680339" TEXT="OS installation"/>
+<node CREATED="1644404680339" ID="44" MODIFIED="1644404680339" TEXT="Server maintenance"/>
+<node CREATED="1644404680339" ID="45" MODIFIED="1644404680339" TEXT="Rack and stack"/>
+<node CREATED="1644404680339" ID="46" MODIFIED="1644404680339" TEXT="Power, HVAC, net"/>
+<node CREATED="1644404680339" ID="47" MODIFIED="1644404680339" TEXT="Scaling"/>
+<node CREATED="1644404680339" ID="48" MODIFIED="1644404680339" TEXT="High Availability (HA)"/>
+<node CREATED="1644404680339" ID="49" MODIFIED="1644404680339" TEXT="Database backup"/>
+<node CREATED="1644404680340" ID="50" MODIFIED="1644404680340" TEXT="Database software patches"/>
+<node CREATED="1644404680340" ID="51" MODIFIED="1644404680340" TEXT="Database software install"/>
+<node CREATED="1644404680340" ID="52" MODIFIED="1644404680340" TEXT="OS Patches"/>
+</node>
+<node CREATED="1644404680340" ID="42" MODIFIED="1644404680340" TEXT="You">
+<node CREATED="1644404680340" ID="53" MODIFIED="1644404680340" TEXT="App optimization"/>
+</node>
+</node>
+<node CREATED="1644404680340" ID="54" MODIFIED="1644404680340" TEXT="Serverless Services">
+<node CREATED="1644404680340" ID="55" MODIFIED="1644404680340" TEXT="Not operate within VPC infrastructure"/>
+<node CREATED="1644404680340" ID="56" MODIFIED="1644404680340" TEXT="Access via URL endpoint"/>
+<node CREATED="1644404680340" ID="57" MODIFIED="1644404680340" TEXT="VPC resources can access serverless services"/>
+</node>
+</node>
+<node CREATED="1644404680340" ID="58" MODIFIED="1644404680340" TEXT="AWS Infrastructure">
+<node CREATED="1644404680340" ID="59" MODIFIED="1644404680340" TEXT="Data centers">
+<node CREATED="1644404680340" ID="60" MODIFIED="1644404680340" TEXT="Host thousand of servers"/>
+<node CREATED="1644404680340" ID="61" MODIFIED="1644404680340" TEXT="Organized into Availability Zones (AZ)"/>
+<node CREATED="1644404680340" ID="62" MODIFIED="1644404680340" TEXT="Propietary network equipment"/>
+</node>
+<node CREATED="1644404680340" ID="64" MODIFIED="1644404680340" TEXT="Availability Zones (AZ)">
+<node CREATED="1644404680340" ID="63" MODIFIED="1644404680340" TEXT="Data centers in a region"/>
+</node>
+<node CREATED="1644404680340" ID="65" MODIFIED="1644404701200" TEXT="Regions">
+<node CREATED="1644404680340" ID="66" MODIFIED="1644404680340" TEXT="Uses AWS network infrastructure"/>
+<node CREATED="1644404680340" ID="67" MODIFIED="1644404680340" TEXT="2+ Availability Zones"/>
+<node CREATED="1644404680340" ID="68" MODIFIED="1644404680340" TEXT="Completely independent"/>
+</node>
+<node CREATED="1644404680340" ID="69" MODIFIED="1644404680340" TEXT="Local Zones">
+<node CREATED="1644404680340" ID="73" MODIFIED="1644404680340" TEXT="Media &amp; entertainment creation"/>
+<node CREATED="1644404680340" ID="74" MODIFIED="1644404680340" TEXT="Real-time multiplayer gaming"/>
+<node CREATED="1644404680340" ID="84" MODIFIED="1644404680340" TEXT="Live video streaming"/>
+</node>
+<node CREATED="1644404680341" ID="70" MODIFIED="1644404680341" TEXT="Edge Locations">
+<node CREATED="1644404680341" ID="71" MODIFIED="1644404680341" TEXT="Run in major cities"/>
+<node CREATED="1644404680341" ID="72" MODIFIED="1644404680341" TEXT="Support AWS Services like CloudFront or Route 53"/>
+</node>
+<node CREATED="1644404680341" ID="75" MODIFIED="1644404680341" TEXT="Local zone vs Edge location">
+<node CREATED="1644404680341" ID="76" MODIFIED="1644404680341" TEXT="Local Zone">
+<node CREATED="1644404680341" ID="78" MODIFIED="1644404680341" TEXT="Low latency"/>
+<node CREATED="1644404680341" ID="79" MODIFIED="1644404680341" TEXT="Local data processing"/>
+<node CREATED="1644404680341" ID="80" MODIFIED="1644404680341" TEXT="Consistent AWS experience"/>
+</node>
+<node CREATED="1644404680341" ID="77" MODIFIED="1644404680341" TEXT="Edge Location">
+<node CREATED="1644404680341" ID="81" MODIFIED="1644404680341" TEXT="Caching data"/>
+<node CREATED="1644404680341" ID="82" MODIFIED="1644404680341" TEXT="Fast delivery of content"/>
+<node CREATED="1644404680341" ID="83" MODIFIED="1644404680341" TEXT="Better user experience"/>
+</node>
+</node>
+</node>
+<node CREATED="1644428068829" ID="ID_1374065254" MODIFIED="1644428120800" TEXT="Well-Architected Tool (AWS WA Tool)">
+<node CREATED="1644428169556" ID="ID_1716452930" MODIFIED="1644428183099" TEXT="Help cloud architects using best practices">
+<node CREATED="1644428244019" ID="ID_1819137966" MODIFIED="1644428253437" TEXT="Security">
+<node CREATED="1644428306074" ID="ID_829249280" MODIFIED="1644428321765" TEXT="Apply at all layers"/>
+<node CREATED="1644428322394" ID="ID_1462738685" MODIFIED="1644428339478" TEXT="Principle of least privelege"/>
+<node CREATED="1644428340064" ID="ID_133556060" MODIFIED="1644428350979" TEXT="Multi-Factor Authorization (MFA)"/>
+</node>
+<node CREATED="1644428200397" ID="ID_1753058273" MODIFIED="1644428205175" TEXT="Cost optimization">
+<node CREATED="1644428354591" ID="ID_168401332" MODIFIED="1644428364756" TEXT="Analyze and attribute expenditures"/>
+<node CREATED="1644428367673" ID="ID_1820658076" MODIFIED="1644428373464" TEXT="Cost-effective resources"/>
+<node CREATED="1644428373857" ID="ID_1458173114" MODIFIED="1644428377676" TEXT="Stop guessing"/>
+</node>
+<node CREATED="1644428205956" ID="ID_1881335233" MODIFIED="1644428209158" TEXT="Reliability">
+<node CREATED="1644428381707" ID="ID_422324013" MODIFIED="1644428387961" TEXT="Recover from failure"/>
+<node CREATED="1644428388687" ID="ID_679283403" MODIFIED="1644428393710" TEXT="Test recovery procedures"/>
+<node CREATED="1644428394187" ID="ID_831649656" MODIFIED="1644428401880" TEXT="Scale to increase availability"/>
+</node>
+<node CREATED="1644428209614" ID="ID_398166547" MODIFIED="1644428215620" TEXT="Performance efficiency">
+<node CREATED="1644428407968" ID="ID_151461012" MODIFIED="1644428412317" TEXT="Reduce latency"/>
+<node CREATED="1644428412656" ID="ID_552806344" MODIFIED="1644428431785" TEXT="Use serverless"/>
+<node CREATED="1644428417330" ID="ID_829254125" MODIFIED="1644428427316" TEXT="Incorporate monitoring"/>
+</node>
+<node CREATED="1644428216286" ID="ID_1507715620" MODIFIED="1644428221507" TEXT="Operational Excellence">
+<node CREATED="1644428434538" ID="ID_1560112143" MODIFIED="1644428439704" TEXT="Perform operations with code"/>
+<node CREATED="1644428440218" ID="ID_1081439165" MODIFIED="1644428447575" TEXT="Test response for unexpected events"/>
+</node>
+</node>
+<node CREATED="1644428558931" ID="ID_1984721084" MODIFIED="1644428571166" TEXT="AWS WA Tool">
+<node CREATED="1644428574204" ID="ID_1460773423" MODIFIED="1644428579508" TEXT="Define workload"/>
+<node CREATED="1644428580045" ID="ID_1603317865" MODIFIED="1644428586812" TEXT="Conduct architectural review"/>
+<node CREATED="1644428587301" ID="ID_1211290620" MODIFIED="1644428592124" TEXT="Apply best practices"/>
+</node>
+</node>
+</node>
+<node CREATED="1644428654375" ID="ID_1547008563" MODIFIED="1644428667117" POSITION="left" TEXT="Account Security">
+<node CREATED="1644428698167" ID="ID_1369222540" MODIFIED="1644428704670" TEXT="Security Principals">
+<node CREATED="1644428750320" ID="ID_141749076" MODIFIED="1644428755271" TEXT="Root user">
+<node CREATED="1644428927936" ID="ID_1051475340" MODIFIED="1644428938295" TEXT="First time create an AWS account, begin a root user"/>
+</node>
+<node CREATED="1644428755903" ID="ID_38535375" MODIFIED="1644428849663" TEXT="IAM - Identity &amp; Authorizaton Management">
+<node CREATED="1644428976267" ID="ID_1215885265" MODIFIED="1644428984210" TEXT="Manage users, groups and roles"/>
+<node CREATED="1644428986779" ID="ID_662611362" MODIFIED="1644428994053" TEXT="Manage access to AWS Services and resources"/>
+<node CREATED="1644428994605" ID="ID_1670132769" MODIFIED="1644429005732" TEXT="Analyze access controls"/>
+<node CREATED="1644429006220" ID="ID_1066925335" MODIFIED="1644429015777" TEXT="Integrate with corporate directory"/>
+<node CREATED="1644429090589" ID="ID_1043504777" MODIFIED="1644429093150" TEXT="Principals">
+<node CREATED="1644429102131" ID="ID_795476222" MODIFIED="1644429104494" TEXT="IAM user">
+<node CREATED="1644429157147" ID="ID_1074872870" MODIFIED="1644429160974" TEXT="No permissions by default"/>
+<node CREATED="1644429174285" ID="ID_1391837233" MODIFIED="1644429182755" TEXT="Each one has it own credentials"/>
+<node CREATED="1644429191597" ID="ID_1829470107" MODIFIED="1644429198422" TEXT="Authorized to perform specific AWS actions"/>
+<node CREATED="1644429313279" ID="ID_175063257" MODIFIED="1644429317428" TEXT="IAM policies"/>
+<node CREATED="1644429344471" ID="ID_1481343736" MODIFIED="1644429347869" TEXT="Credentials">
+<node CREATED="1644429351288" ID="ID_54124071" MODIFIED="1644429354028" TEXT="Root"/>
+<node CREATED="1644429354669" ID="ID_1870377765" MODIFIED="1644429361028" TEXT="IAM User"/>
+<node CREATED="1644429362111" ID="ID_1272662630" MODIFIED="1644429374001" TEXT="Access key ID and secret access key"/>
+<node CREATED="1644429374998" ID="ID_1549855804" MODIFIED="1644429378902" TEXT="MFA"/>
+</node>
+<node CREATED="1644429502511" ID="ID_1574595034" MODIFIED="1644429509919" TEXT="IAM user groups">
+<node CREATED="1644429515519" ID="ID_215453628" MODIFIED="1644429520857" TEXT="Collection of IAM users"/>
+</node>
+</node>
+<node CREATED="1644429105852" ID="ID_714953509" MODIFIED="1644429108032" TEXT="AWS Service"/>
+<node CREATED="1644429112061" ID="ID_797233817" MODIFIED="1644431853786" TEXT="IAM role">
+<node CREATED="1644429728856" ID="ID_62378152" MODIFIED="1644429743963" TEXT="Delegate permissions to specific users or services"/>
+<node CREATED="1644429744792" ID="ID_333243501" MODIFIED="1644429759181" TEXT="Users assume a role without sharing credentials"/>
+<node CREATED="1644429759825" ID="ID_18864441" MODIFIED="1644429776566" TEXT="Permissions are temporary"/>
+<node CREATED="1644430122580" ID="ID_1155892227" MODIFIED="1644430176390" TEXT="Assuming via">
+<node CREATED="1644430128443" ID="ID_495595665" MODIFIED="1644430133609" TEXT="Management Console"/>
+<node CREATED="1644430134253" ID="ID_634962291" MODIFIED="1644430135965" TEXT="CLI"/>
+<node CREATED="1644430137531" ID="ID_1299627380" MODIFIED="1644430141771" TEXT="AssumeRole API"/>
+<node CREATED="1644430143236" ID="ID_1249693941" MODIFIED="1644430153870" TEXT="AWS Security Token Service (AWS STS)"/>
+</node>
+<node CREATED="1644431855603" ID="ID_1425382870" MODIFIED="1644431872751" TEXT="Limited sudo access to AWS"/>
+</node>
+<node CREATED="1644429115367" ID="ID_970405347" MODIFIED="1644429127005" TEXT="Identity provider (IdP)"/>
+</node>
+</node>
+<node CREATED="1644428758903" ID="ID_763953718" MODIFIED="1644428764994" TEXT="Users, groups and roles"/>
+</node>
+<node CREATED="1644428706630" ID="ID_970732987" MODIFIED="1644428712415" TEXT="Managing Multiple Accounts">
+<node CREATED="1644434227778" ID="ID_204887236" MODIFIED="1644434250307" TEXT="AWS Organizations">
+<node CREATED="1644434271924" ID="ID_1703374860" MODIFIED="1644434292297" TEXT="Create hierarchy by grouping into OU"/>
+<node CREATED="1644434356300" ID="ID_1454606642" MODIFIED="1644434428985" TEXT="Apply Service Control Policy (SCP)"/>
+<node CREATED="1644434379563" ID="ID_1980748454" MODIFIED="1644434389683" TEXT="Centralized Management of AWS Accounts"/>
+</node>
+<node CREATED="1644434251324" ID="ID_1480009900" MODIFIED="1644435070088" TEXT="AWS Control Tower">
+<node CREATED="1644435072545" ID="ID_1807719220" MODIFIED="1644435084508" TEXT="Secure, compliant, multi-account environment"/>
+<node CREATED="1644435086217" ID="ID_1744399495" MODIFIED="1644435094007" TEXT="Enforce governance"/>
+</node>
+</node>
+<node CREATED="1644428712862" ID="ID_1456967136" MODIFIED="1644428718324" TEXT="Security Policies">
+<node CREATED="1644431946026" ID="ID_789708629" MODIFIED="1644431953047" TEXT="Granting permissions">
+<node CREATED="1644431963170" ID="ID_1369563344" MODIFIED="1644431979806" TEXT="Identity-based policies assigned to users, groups and roles">
+<node CREATED="1644432099405" ID="ID_1115801963" MODIFIED="1644432103267" TEXT="Service access"/>
+<node CREATED="1644432103724" ID="ID_1404744630" MODIFIED="1644432107387" TEXT="Job function"/>
+<node CREATED="1644432107739" ID="ID_1983367277" MODIFIED="1644432110538" TEXT="Custom policy"/>
+</node>
+<node CREATED="1644431980465" ID="ID_1103799916" MODIFIED="1644432021456" TEXT="Resource-based policies assigned to resources"/>
+<node CREATED="1644432578005" ID="ID_226340368" MODIFIED="1644432580072" TEXT="Elements">
+<node CREATED="1644432583096" ID="ID_1847506582" MODIFIED="1644433156860" TEXT="Effect (Mandatory)"/>
+<node CREATED="1644432586341" ID="ID_1453237576" MODIFIED="1644433198667" TEXT="Principal (Not exists for identity)"/>
+<node CREATED="1644432595021" ID="ID_1003437320" MODIFIED="1644433164863" TEXT="Action (Mandatory)"/>
+<node CREATED="1644432598645" ID="ID_1692087254" MODIFIED="1644433170042" TEXT="Resource (Mandatory)"/>
+<node CREATED="1644432601526" ID="ID_1608072695" MODIFIED="1644432603681" TEXT="Condition"/>
+</node>
+</node>
+<node CREATED="1644433854216" ID="ID_733783249" MODIFIED="1644433858695" TEXT="Maximum permissions">
+<node CREATED="1644433860504" ID="ID_1498302310" MODIFIED="1644433867537" TEXT="IAM permissions boundaries"/>
+</node>
+</node>
+<node CREATED="1644428719230" ID="ID_409214803" MODIFIED="1644428721877" TEXT="Federation">
+<node CREATED="1644434077529" ID="ID_1146411094" MODIFIED="1644434082837" TEXT="Federated users">
+<node CREATED="1644434057416" ID="ID_311227583" MODIFIED="1644434151976" TEXT="Not have AWS Account (Microsoft Active Directory, OpenLDAP)"/>
+</node>
+<node CREATED="1644434088553" ID="ID_1558569008" MODIFIED="1644434093236" TEXT="Identity Providers">
+<node CREATED="1644434113386" ID="ID_1543559299" MODIFIED="1644434184097" TEXT="Manage identities outside AWS (SAML 2.0, OpenID)"/>
+</node>
+</node>
+</node>
+<node CREATED="1644436505671" ID="ID_1319415717" MODIFIED="1644436508930" POSITION="right" TEXT="Networking">
+<node CREATED="1644436578620" ID="ID_789762821" MODIFIED="1644436581579" TEXT="IP Addressing">
+<node CREATED="1644437252143" ID="ID_161345327" MODIFIED="1644437291381" TEXT="Support IPv4 (Mandatory)  + IPv6"/>
+</node>
+<node CREATED="1644436583628" ID="ID_1854806619" MODIFIED="1644436590669" TEXT="VPC Traffic Security"/>
+<node CREATED="1644436591165" ID="ID_1447950850" MODIFIED="1644436596312" TEXT="VPC Fundamentals">
+<node CREATED="1644438371604" ID="ID_1861740913" MODIFIED="1644438378167" TEXT="Amazon VPC">
+<node CREATED="1644438489773" ID="ID_321235907" MODIFIED="1644438495226" TEXT="Bound to a single Region"/>
+</node>
+<node CREATED="1644438378598" ID="ID_903467083" MODIFIED="1644438381214" TEXT="Subnets">
+<node CREATED="1644438508051" ID="ID_1550634990" MODIFIED="1644438515053" TEXT="Subset of CIDR block"/>
+<node CREATED="1644438515627" ID="ID_187310704" MODIFIED="1644438528178" TEXT="Each subnet resides within one AZ"/>
+</node>
+<node CREATED="1644438381646" ID="ID_15206499" MODIFIED="1644438386557" TEXT="Internet Gateway">
+<node CREATED="1644438548508" ID="ID_1186797271" MODIFIED="1644438560773" TEXT="Permit communication between instances in a VPC and internet"/>
+<node CREATED="1644438644888" ID="ID_789392082" MODIFIED="1644438658008" TEXT="Horizontaly scaled, redundant and HA"/>
+</node>
+<node CREATED="1644438387052" ID="ID_401502311" MODIFIED="1644438391584" TEXT="Route Table"/>
+<node CREATED="1644438392308" ID="ID_1028631614" MODIFIED="1644438414164" TEXT="Elastic IP Address"/>
+<node CREATED="1644438399356" ID="ID_1358315802" MODIFIED="1644438402052" TEXT="NAT Gateway"/>
+<node CREATED="1644438402555" ID="ID_1821966529" MODIFIED="1644438407533" TEXT="Elastic network interface"/>
+</node>
+<node CREATED="1644437147099" ID="ID_1493835814" MODIFIED="1644437150229" TEXT="Region">
+<node CREATED="1644437152161" ID="ID_1691075987" MODIFIED="1644437156312" TEXT="VPC">
+<node CREATED="1644437158563" ID="ID_1968591731" MODIFIED="1644437167710" TEXT="Availability Zone (AZ)">
+<node CREATED="1644437169323" ID="ID_1594982969" MODIFIED="1644437173809" TEXT="Public Subnet"/>
+<node CREATED="1644438078872" ID="ID_202909901" MODIFIED="1644438083369" TEXT="Private Subnet"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>
